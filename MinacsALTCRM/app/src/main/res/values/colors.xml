@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#F21616</color>
+    <color name="grey_dark">#5C5C5C</color>
+    <color name="black_niasite">#0B0B0B</color>
+    <color name="grey_straight">#454545</color>
+    <color name="white_space">#F9FBFF</color>
+    <color name="titanium">#BCBCBC</color>
+    <color name="white_gradient">#F1F0ED</color>
+    <color name="green_lime">#00D63C</color>
+    <color name="white_especial">#F4FFE7</color>
+    <color name="blue_dark">#003366</color>
+    <color name="green_light">#84D88C</color>
+    <color name="green_dark">#058423</color>
+    <color name="grey_86">#DBDBDB</color>
+    <color name="blue_light">#2F7FAF</color>
+    <color name="blue">#03347e</color>
+    <color name="blue_mapsearch_bg">#357AE8</color>
+    <color name="blue_mapsearch_bg_pressed">#5C8BD6</color>
+    <color name="button_green_bg">#92D051</color>
+    <color name="button_green_bg_pressed">#6ca72d</color>
+    <color name="button_green_bg_disabled">#5f9327</color>
+    <color name="bg_screen">#254061</color>
+    <color name="semi_transparent">#99000000</color>
+
+    <color name="seafoam">#ffc6f9e5</color>
+    <color name="chartreuse">#ffb6e9b5</color>
+    <color name="emerald">#ffa6d9b5</color>
+    <color name="bluegrass">#ff96c9b5</color>
+    <color name="turquoise">#ff86b9b5</color>
+    <color name="slate">#ff76a9b5</color>
+    <color name="minacs_green">#7BBE02</color>
+    <color name="minacs_greenishYello">#A3B107</color>
+</resources>

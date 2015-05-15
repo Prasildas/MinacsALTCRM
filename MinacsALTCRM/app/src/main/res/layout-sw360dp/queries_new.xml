@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen">
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:gravity="center"
+        >
+
+
+        <!--<ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView_queries"
+            android:layout_gravity="center_horizontal" />-->
+        <view
+            android:layout_width="270dp"
+            android:layout_height="270dp"
+            class="com.tspl.minacsaltcrm.views.CirclularDivider"
+            android:id="@+id/circularView"
+            android:layout_gravity="center_horizontal"
+            app:innerPadding="15"
+            app:innerRadius="80"
+            app:centerText="Request"
+            app:textSize="22"
+            app:centerTextSize="30"
+            app:pushPaddingLeft="20"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            app:outerPaddingCircle="3"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

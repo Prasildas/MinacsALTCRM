@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.tspl.minacsaltcrm"
+        minSdkVersion 14
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+        release {
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'http://ksoap2-android.googlecode.com/svn/m2-repo' }
+}
+
+
+
+dependencies {
+    compile 'com.android.support:support-v4:+'
+    compile 'com.google.android.gms:play-services:3.1.36'
+    compile 'com.google.android.gms:play-services:4.0.30'
+    compile 'info.hoang8f:fbutton:1.0.5'
+    compile 'com.google.code.ksoap2-android:ksoap2-android:3.1.1'
+
+}

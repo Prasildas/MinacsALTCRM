@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="150dp"
+    android:background="@color/white"
+    >
+    <ImageView
+        android:id="@+id/survey_list_image"
+        android:layout_width="0px"
+        android:layout_margin="8dp"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+        android:layout_weight="1"/>
+    <RelativeLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:id="@+id/rating_upper">
+
+        <TextView
+            android:id="@+id/survey_list_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Organization"
+            android:lines="4"
+            android:paddingTop="5dp"/>
+
+        </LinearLayout>
+        <RatingBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stepSize="1.0"
+            android:numStars="5"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ratingBar"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

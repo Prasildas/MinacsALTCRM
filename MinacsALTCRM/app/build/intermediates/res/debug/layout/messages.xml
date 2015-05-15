@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen" >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header" />
+
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer" />
+
+    <FrameLayout
+        android:id="@+id/linear_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/header"
+        android:orientation="vertical"
+        android:padding="5dp" >
+		
+		<TextView
+            android:id="@+id/tvNoMessages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="There are No Messages to Show"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF"
+            android:visibility="visible"/>
+
+        <ListView
+            android:id="@+id/listView_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent">
+            </ListView>
+
+</FrameLayout>
+
+</RelativeLayout><!-- From: file:/F:/WORK/Minacs/branches/T0360/MinacsALTCRM/app/src/main/res/layout/messages.xml -->

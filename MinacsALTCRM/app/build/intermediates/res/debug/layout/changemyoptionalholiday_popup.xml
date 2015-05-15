@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:background="@color/transparent">
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:background="@drawable/popup_bg"
+
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:id="@+id/tvName"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:lines="2"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:textColor="@color/white"
+                />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#92D051"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etSelectDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:hint="Alternate Date"
+                    android:imeOptions="actionDone"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etComments"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:lines="5"
+                android:hint="Reason"
+                android:gravity="top"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/btnApply"
+                android:layout_width="@dimen/button_wdth"
+                android:layout_height="40dp"
+                android:text="Submit"
+                android:background="@drawable/bg_button"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="@dimen/button_wdth"
+                android:layout_height="40dp"
+                android:text="Cancel"
+                android:background="@drawable/bg_button"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="match_parent" />
+</LinearLayout>
+<!-- From: file:/F:/WORK/Minacs/branches/T0360/MinacsALTCRM/app/src/main/res/layout/changemyoptionalholiday_popup.xml -->

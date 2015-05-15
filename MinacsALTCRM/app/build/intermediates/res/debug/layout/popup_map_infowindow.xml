@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    <Space
+        android:layout_width="70dp"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:background="@color/white"
+
+        >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/tvName"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:lines="1"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:id="@+id/tvAddress"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:lines="4"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#92D051"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etSelectDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:editable="false"
+                android:hint="Select Date"
+                android:imeOptions="actionDone"/>
+
+
+
+            </LinearLayout>
+
+        <EditText
+            android:id="@+id/etComments"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:lines="5"
+            android:hint="Comments here"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        >
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnApply"
+            android:layout_width="@dimen/button_wdth"
+            android:layout_height="@dimen/button_ht"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            fbutton:buttonColor="#92d051"
+            fbutton:shadowColor="#7abf04"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            fbutton:cornerRadius="5dp"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            />
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnCancel"
+            android:layout_width="@dimen/button_wdth"
+            android:layout_height="@dimen/button_ht"
+            android:text="Cancel"
+            android:textColor="@android:color/white"
+            fbutton:buttonColor="#92d051"
+            fbutton:shadowColor="#7abf04"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            fbutton:cornerRadius="5dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+
+        </LinearLayout>
+        </LinearLayout>
+    <Space
+        android:layout_width="70dp"
+        android:layout_height="match_parent" />
+</LinearLayout>
+<!-- From: file:/F:/WORK/Minacs/branches/T0360/MinacsALTCRM/app/src/main/res/layout/popup_map_infowindow.xml -->

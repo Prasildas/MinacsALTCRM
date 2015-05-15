@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- When selected, use blue -->
+    
+    <item android:drawable="@drawable/contact_touch" android:state_enabled="false"/>
+
+    <item android:drawable="@drawable/contact_touch" android:state_pressed="true"/>
+
+    <!-- When not selected, use black -->
+    <item android:drawable="@drawable/contact"/>
+
+</selector><!-- From: file:/F:/WORK/Minacs/branches/T0360/MinacsALTCRM/app/src/main/res/drawable/bg_contact_touch.xml -->
